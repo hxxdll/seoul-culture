@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "seoul-culture",
+  "description": "서울 문화행사를 검색해 카카오톡 나챗방으로 보내 주는 플러그인",
+  "owner": {
+    "name": "Woori"
+  },
+  "plugins": [
+    {
+      "name": "seoul-culture",
+      "description": "서울 문화행사(공연·전시·축제)를 키워드·분류·날짜로 검색하고, 요약을 카카오톡 나챗방으로 보냅니다.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
